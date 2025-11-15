@@ -1,0 +1,548 @@
+Agent Title: Inventory Management Assistant
+Overview: Streamline your inventory operations effortlessly with AI-powered 
+automation. This assistant enables real-time stock updates, accurate 
+order tracking, and organized product management, eliminating manual 
+errors and ensuring seamless coordination with suppliers. Save time,
+ reduce operational costs, and prevent stockouts with
+ smart inventory control.
+Client: Retail & FMCG Companies
+Challenges: Manual Processes: Traditional inventory tracking is error-prone and time-consuming, leading to operational disruptions.
+
+Stockouts & Delays: Lack of real-time visibility causes shortages and delays in fulfilling orders.
+
+Inefficient Restocking: Poor order management results in mismatches, increased costs, and wasted resources.
+Solutions: Centralized Information Management: Access and manage detailed product and supplier records from a single interface.
+
+Instant Inventory Updates: Easily add, edit, or remove product details for accurate and up-to-date stock data.
+
+Real-Time Stock Monitoring: Gain clear visibility into stock levels to prevent shortages and overstock situations.
+
+Automated Restocking: Generate and process purchase orders quickly, reducing manual efforts and delays.
+
+Integrated Order Management: Sync customer orders with inventory updates to ensure accurate fulfillment and timely delivery.
+Features: ? Real-Time Stock Updates
+? Automated Purchase Orders
+? Accurate Order Tracking
+? Supplier Coordination & Management
+? Dynamic Inventory Data Access
+? Error-Free & Efficient Operations
+Tools Used: Microsoft Copilot Studio  For building the conversational AI chatbot to interact with users and automate processes.
+
+Power Automate  For seamless workflow automation, including purchase order generation and notifications.
+
+Microsoft Dataverse  For storing and managing product, order, and supplier data in a centralized way.
+
+Microsoft Outlook  For automated approval workflows and real-time notifications.
+Agent: <!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/e3ce6a5b-ed6e-e60e-af3e-95da64019813/bots/crd5b_inventoryManagementAssistant/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+nan: nan
+----------------------------------------
+Agent Title: Customer Support Automation Assistant
+Overview: Deliver autonomous, AI-driven customer support that intelligently manages queries across multiple departments. With automated triage, accurate classification, and seamless workflow integration, this assistant accelerates resolution times, improves accountability, and ensures complete visibility for customers and teams.
+Client: nan
+Challenges: Queries were misdirected or delayed due to lack of automated triage logic, increasing resolution times.
+
+Inconsistent handling of similar issues across departments due to missing standard classification.
+
+Fragmented or incomplete audit trails for ticket ownership, handoffs, and resolution history.
+
+Officers relied on disconnected reference documents, leading to redundant effort and knowledge gaps.
+
+Customers lacked visibility into ticket status and had no clear point of contact post-submission.
+
+Existing workflows couldnt adapt quickly to new products, territories, or query types.
+Solutions: Autonomous Query Handling: Built with Copilot Studio, the assistant triages and classifies tickets dynamically without manual intervention.
+
+Automated Ticket Logging: Digital form submissions (e.g., disputes, requests) logged into SharePoint as structured tickets.
+
+AI-Driven Classification: AI Builder categorizes tickets into relevant departments (Sales Ops, Accounts, Distribution).
+
+Logic-Based Assignment: Power Automate routes tickets to appropriate officers based on predefined rules.
+
+Knowledge Access: Officers retrieve SOPs and case history from SharePoint for faster resolution.
+
+Customer Transparency: Automated personalized emails inform customers of ticket status and provide a direct point of contact.
+Features: ? Autonomous Query Triage via Copilot Studio
+? Automated Ticket Logging in SharePoint
+? AI-Based Classification & Routing
+? End-to-End Workflow Automation
+? Integrated Knowledge Base for Agents
+? Real-Time Status Notifications for Customers
+Tools Used: Microsoft Copilot Studio  For creating the autonomous customer support agent and dynamic interaction logic.
+
+Microsoft SharePoint  For structured ticket storage and knowledge management.
+
+AI Builder  For intelligent ticket parsing and classification.
+
+Power Automate (Cloud)  For automated workflows, routing, and notifications.
+
+Microsoft Outlook  For sending real-time status updates to customers.
+Agent: <!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/e3ce6a5b-ed6e-e60e-af3e-95da64019813/bots/crd5b_customerInquiryClarifier/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+nan: nan
+----------------------------------------
+Agent Title: Asset Management Assistant
+Overview: Manage your vending machines effortlessly with an AI-powered
+ assistant that helps create and update machine details, manage
+ inventory, and ensure accurate pricing. Data is securely stored in
+ Dataverse, while backend workflows and UI automation are
+ handled seamlessly using Power Automate in both cloud and 
+desktop environments.
+Client: Facilities & Asset Management Teams
+Challenges: Complex Machine Setup: Manual configuration of vending machines is time-consuming and error-prone.
+
+Inventory Mismatches: Lack of real-time updates leads to incorrect stock and pricing.
+
+Disconnected Processes: Multiple platforms and manual approvals slow down operations.
+
+
+Solutions: Simplified Machine Management: Quickly create and update vending machines with automated workflows.
+
+Integrated Inventory & Pricing Sync: Keep stock, product details, and pricing accurate and updated in real time.
+
+Data Management with SharePoint: Easily view and update machine and product details through SharePoint lists.
+
+Trigger-Based Automation: Adding or updating data in Dataverse automatically triggers desktop flows for UI automation in your vending machine application.
+
+Automated Approvals: Power Automate ensures smooth approval workflows and backend processing.
+
+
+Features: ? Create & Update Vending Machines
+? Accurate Product & Pricing Control
+? Real-Time Inventory Synchronization
+? SharePoint Integration for Data View & Update
+? Trigger-Based UI Automation from Dataverse
+? Automated Approvals & Notifications
+
+
+Tools Used: Microsoft Copilot Studio  For building the conversational assistant interface.
+
+Power Automate (Cloud & Desktop)  For backend workflows, approvals, and UI automation in the vending application.
+
+Microsoft Dataverse  For secure storage of machine, product, and inventory data.
+
+SharePoint  For listing and updating machine and inventory data for easy access.
+
+
+Agent: <!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/Default-008502d6-3f79-46f0-ab37-9354e3fe80ff/bots/cr28f_agent1_KK3RZL/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+nan: nan
+----------------------------------------
+Agent Title: Employee Onboarding Assistant
+Overview: Simplify and accelerate the onboarding process with an
+ AI-powered assistant that collects new hire data, validates 
+inputs, stores information securely, and provides 
+personalized, conversational guidance for a seamless 
+HR experience.
+Client: Corporate HR Department
+Challenges: Time-Consuming Data Collection: Manual onboarding processes are slow and inefficient.
+
+Validation Issues: Ensuring accurate and secure ID verification is complex.
+
+Lack of Personalization: New hires often experience inconsistent and impersonal onboarding journeys.
+
+
+Solutions: Guided Conversational Onboarding: The assistant interacts with new hires, collecting accurate and complete data step by step.
+
+Data Validation: Ensures secure and error-free validation of critical details like IDs, contact info, and educational background.
+
+Secure Data Handling: All information is stored in a reliable database for easy access and integration.
+
+Personalized Experience: AI-driven conversations make onboarding engaging and consistent.
+Features: ? Real-Time Data Collection & Validation
+? Secure Storage in Database
+? Personalized, Conversational Guidance
+? Automated Error Detection
+? Efficient & Consistent HR Workflow
+? Scalable for Large Teams
+Tools Used: Python  For backend logic and data processing.
+
+Streamlit  For building an interactive and user-friendly onboarding interface.
+
+Database   For secure and scalable data storage.
+
+Model: Gemma2-9B-IT  For generating dynamic, context-aware, and personalized responses.
+Agent: https://employee-onboardinator-agent.streamlit.app
+nan: nan
+----------------------------------------
+Agent Title: ATC Crash Analysis Assistant
+Overview: Enhance aviation safety by transforming ATC audio 
+communications into structured, data-driven reports 
+and enabling instant, context-aware crash analysis 
+through an AI-powered chatbot. This assistant leverages advanced LLMs, transcription models, and AI agents to uncover critical insights, ensuring faster, more accurate safety evaluations.
+Client: Civil Aviation Authorities
+Challenges: Manual Analysis Overload: Analyzing hours of pilot-ATC dialogue manually is time-consuming and error-prone.
+
+Missed Critical Errors: Crucial communication slips often go unnoticed due to human limitations.
+
+Slow Reporting: Delays in producing reports can postpone vital safety recommendations, increasing operational risk.
+Solutions: Rapid Transcription: Convert ATC audio into text using OpenAI Whisper Model, supported by Pydub for audio handling.
+
+AI-Driven Investigation: AI agents (CrewAI, LangChain) analyze conversations like relentless investigators to identify red flags and anomalies.
+
+LLM-Powered Insights: Utilize LLAMA 3.1 for generating context-rich, actionable insights from transcripts.
+
+Interactive Reporting: Deliver structured reports and visual insights through a Streamlit dashboard for ease of interpretation.
+Features: ? Automated ATC Audio Transcription
+? AI-Based Anomaly & Risk Detection
+? LLM-Powered Contextual Crash Analysis
+? Dynamic Report Generation
+? Interactive Streamlit Dashboard for Visualization
+? End-to-End Workflow from Audio to Actionable Insights
+
+
+Tools Used: Python  For scripting, data handling, and integrating components.
+
+OpenAI Whisper  For high-accuracy speech-to-text transcription.
+
+Pydub  For audio preprocessing and format handling.
+
+CrewAI & LangChain  For building autonomous AI investigative workflows.
+
+LLAMA 3.1  For advanced contextual analysis and report generation.
+
+Streamlit  For creating interactive dashboards and visual reports.
+
+
+Agent: https://blackbox-archive-analysis.streamlit.app/
+nan: nan
+----------------------------------------
+Agent Title: Hardware Support Assistant
+Overview: Enhance the efficiency of hardware support
+ processes with an AI-driven assistant that diagnoses issues from images, verifies service tags, manages appointments, and identifies nearby service centersdelivering immediate assistance to users while reducing IT team workload.
+Client: Enterprises and IT service providers 
+Challenges: Complex Defect Analysis: Diagnosing hardware defects from user-uploaded images accurately and efficiently.
+
+Warranty Verification: Validating service tags and warranty details without delays.
+
+Appointment Scheduling: Managing appointments without overlaps or delays.
+
+Service Center Identification: Quickly locating legal and technical nearby service centers for user convenience.
+Solutions: Automated Defect Analysis: Uses LLaMA 3 Vision Model to quickly analyze and identify hardware issues from uploaded images.
+
+Streamlined Verification: Centralized data repository verifies service tags and warranty status for fast resolution.
+
+Integrated Appointment Booking: Automates scheduling with available technicians for warranty-valid cases.
+
+Service Center Identification: Employs web scraping to locate authorized nearby service centers for immediate support.
+
+
+Features: ? AI-Based Hardware Defect Detection from Images
+? Automated Warranty & Service Tag Verification
+? Real-Time Appointment Scheduling with Technicians
+? Service Center Locator using Web Data
+? Reduced IT Personnel Workload
+? Instant User Assistance
+Tools Used: Python  For backend processing and automation workflows.
+
+LLaMA 3 Vision Model  For image-based defect detection.
+
+Centralized Database  For warranty and service tag verification.
+
+Web Scraping (Python + BeautifulSoup/Scrapy)  For real-time service center identification.
+
+Streamlit  For an interactive user interface and dashboard.
+
+
+Agent: https://automated-hardware-support-agent.streamlit.app/
+nan: nan
+----------------------------------------
+Agent Title: Sales Forecasting & Supplier Analysis Assistant
+Overview: An interactive, AI-driven platform that delivers data-driven insights for sales forecasting, product performance, and supplier analysis. This assistant enables smarter decision-making, optimized inventory management, and strategic supplier partnerships for improved business outcomes.
+Client: A Retail or Distribution Company 
+Challenges: Uncertain Sales Trends: Limited visibility into future demand leads to inefficient inventory and supply chain operations.
+
+Complex Supplier Analysis: Difficulty in identifying high-performing suppliers due to fragmented data.
+
+Inconsistent Product Insights: Lack of clear product performance analysis impacts marketing and sales strategies.
+
+Inefficient Categorization: Need for smarter clustering of suppliers and products for strategic decisions.
+
+
+Solutions: Uncertain Sales Trends: Limited visibility into future demand leads to inefficient inventory and supply chain operations.
+
+Complex Supplier Analysis: Difficulty in identifying high-performing suppliers due to fragmented data.
+
+Inconsistent Product Insights: Lack of clear product performance analysis impacts marketing and sales strategies.
+
+Inefficient Categorization: Need for smarter clustering of suppliers and products for strategic decisions.
+
+
+Features: ? AI-Powered Sales Forecasting (12 Months)
+? Category & Product-Level Insights
+? Supplier Performance Clustering
+? Interactive Visual Dashboards for Decision-Making
+? Data-Driven Inventory & Marketing Strategies
+Tools Used: Python  For time-series forecasting and data processing.
+
+SARIMA / ML Models  For accurate sales predictions.
+
+Streamlit  For building an interactive dashboard.
+
+Neo4j  For visualizing supplier-product relationships and clusters.
+
+Database  For structured data storage.
+
+
+Agent: https://liquorforecasting.streamlit.app/
+nan: nan
+----------------------------------------
+Agent Title: Legal Edge  Assistant
+Overview: An AI-powered assistant designed to streamline responses to legal inquiries and provide quick, accurate access to essential legal documents. It ensures consistency, reduces response times, and centralizes knowledge for legal teams and stakeholders.
+Client: A legal department or law firm
+Challenges: Time-Consuming Document Search: Legal staff spent hours locating files across folders and systems.
+
+Inconsistent Responses: Common legal queries were answered inconsistently, causing delays.
+
+No Centralized Knowledge Base: Employees lacked a unified platform for accurate legal information.
+
+Knowledge Fragmentation: Expertise scattered across individuals created inefficiencies and errors.
+Solutions: Conversational Legal Assistant: Handles legal queries through a chatbot interface for instant, accurate responses.
+
+Automated Document Retrieval: Fetches and shares relevant legal documents stored in SharePoint for consistency and compliance.
+
+Workflow Automation: Standardizes responses and streamlines access to frequently requested documents.
+
+Time Optimization: Reduces repetitive tasks for legal staff, enabling focus on complex cases.
+Features: ? AI-Powered Legal Query Resolution
+? Instant Access to Legal Documents
+? Integration with SharePoint for Document Management
+? Automated Workflow for Standardized Responses
+? Centralized Legal Knowledge Base
+? Faster Turnaround for Stakeholders
+
+
+Tools Used: Python  For backend logic and document query handling.
+
+Streamlit  For creating an interactive interface for legal teams and stakeholders.
+
+SharePoint  For secure storage and retrieval of legal documents.
+
+LLMs  For conversational query handling and natural language responses.
+Agent: https://legal-edge-chatbot.streamlit.app/
+nan: nan
+----------------------------------------
+Agent Title: HR Process Automation Assistant
+Overview: An intelligent HR Copilot that automates key processes such as leave management, reimbursements, and onboarding queries, reducing manual workload and enhancing the employee experience. It ensures real-time visibility, faster approvals, and consistent communication across the organization.
+Client: A leading Human Resources company
+Challenges: High Volume of Requests: HR struggled to efficiently manage leave, reimbursements, and onboarding for distributed teams.
+
+Manual Errors: Paper-based processes caused delays and inconsistencies in leave and expense approvals.
+
+Disconnected Workflows: Field employees faced challenges submitting travel expenses and tracking reimbursements.
+
+Limited Real-Time Access: Employees lacked visibility into leave balances, claim statuses, and policy updates.
+
+Repetitive Queries: HR staff wasted time responding to common questions without a centralized knowledge base.
+Solutions: HR Copilot via Power Platform: Deployed Copilot Studio for conversational query handling and process automation.
+
+Automated Leave Requests: Real-time leave balance check and status tracking through chatbot.
+
+Digital Reimbursements: Claims auto-classified using AI Builder and routed via Power Automate workflows for approval.
+
+Onboarding Automation: Automated responses for joining formalities, documents, and equipment requests.
+
+Centralized Resources: SOPs, policies, and FAQs stored in SharePoint and surfaced via Copilot for quick answers.
+Features: ? Conversational Leave & Reimbursement Management
+? AI-Based Claim Classification & Routing
+? Real-Time Leave Balance & Claim Status Tracking
+? Automated Onboarding Guidance
+? Centralized Knowledge Base for HR Resources
+? Seamless Integration Across Microsoft Power Platform
+Tools Used: Microsoft Copilot Studio  For conversational HR assistant.
+
+Power Automate  For workflow automation and approvals.
+
+AI Builder  For intelligent document/claim classification.
+
+SharePoint  For centralized storage of HR documents and SOPs.
+Agent: nan
+nan: nan
+----------------------------------------
+Agent Title: Prescription Refill Automation Assistant
+Overview: An intelligent healthcare automation solution that simplifies the prescription refill process through a conversational chatbot integrated with Power Automate and AI Builder. This assistant improves user experience, reduces manual errors, and ensures timely prescription management with automated reminders and instant support.
+Client: Healthcare Provider or Pharmacy Chain
+Challenges: Difficulty Accessing Prescription History: Users struggle to find prescription details spread across systems.
+
+Manual Errors in Refills: Paper-based or manual processes often cause miscommunication and delays.
+
+Slow Support: Users face long wait times for answers to prescription-related queries.
+
+Missed Refills: Patients frequently forget to reorder prescriptions on time.
+Solutions: User-Friendly Interface: Provides easy navigation and quick retrieval of prescription details.
+
+Automated Prescription Handling: Uses AI Builder and Power Automate to fetch and verify prescription information.
+
+24/7 Chatbot Assistance: Handles prescription-related queries instantly through conversational AI.
+
+Automated Reminders: Sends notifications for upcoming refills, reducing missed medication.
+
+
+Features: ? AI-Powered Chatbot for Instant Support
+? Automated Prescription Verification & Refill Requests
+? Real-Time Order Status Updates
+? Secure Integration with Healthcare Databases
+? Automated Refill Reminders via Notifications
+Tools Used: Microsoft Copilot Studio  For conversational chatbot interface.
+
+Power Automate  For backend automation and workflow handling.
+
+AI Builder  For intelligent prescription data processing and validation.
+
+SharePoint / Dataverse  For secure prescription data storage and retrieval.
+Agent: <!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/e3ce6a5b-ed6e-e60e-af3e-95da64019813/bots/contoso_prescriptionRefillAssistant/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+nan: nan
+----------------------------------------
+Agent Title: Multilingual Email Search & Indexing Assistant - PST files
+Overview: A powerful AI-driven assistant designed to enable multilingual (Arabic & English) natural language search across email archives. It integrates with Microsoft Copilot Studio, Azure Cognitive Search, and Azure Blob Storage, ensuring efficient query processing, ranking, and structured result presentation for improved productivity and compliance.
+Client: Government or Enterprise Organization
+Challenges: Multilingual Query Support: Handling natural language queries in both Arabic and English accurately.
+
+Unstructured Data: Emails and attachments stored in PST files were difficult to search and process.
+
+Search Accuracy: Default search lacked ranking, relevance tuning, and contextual understanding.
+
+Data Integration: Need for continuous extraction and indexing of emails for up-to-date results.
+Solutions: Multilingual UI: Built with Copilot Studio or a custom app for Arabic and English support.
+
+Smart Query Processing: Copilot refines natural language queries before sending to Azure Cognitive Search.
+
+Automated Email Extraction: Using Power automate PST files imported to Outlook, emails and attachments converted into structured data.
+
+Cloud Storage & Indexing: Data stored in Azure Blob Storage and indexed regularly by Azure AI Search.
+
+Optimized Search Results: Implemented ranking and relevance tuning for precise results, displayed in a clear, structured format.
+Features: ? Arabic & English Support
+? AI-Powered Query Refinement
+? Automated Email & Attachment Extraction
+? Real-Time Indexing with Azure Cognitive Search
+? Optimized Ranking & Structured Output
+Tools Used: Microsoft Copilot Studio  For UI and query processing.
+
+Azure Cognitive Search  For advanced search indexing and ranking.
+
+Azure Blob Storage  For storing extracted email data.
+
+Microsoft Outlook (VM)  For importing PST files and extracting emails.
+
+Power Automate  For scheduling extraction and upload processes.
+Agent: <!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/Default-008502d6-3f79-46f0-ab37-9354e3fe80ff/bots/cr28f_outlookPst/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+nan: nan
+----------------------------------------
+Agent Title: Hospitality Voice-Enabled Avatar Concierge
+Overview: This AI assistant uses Azure AI Foundry and GPT-4o to interpret guest requests in multiple languages, handle service ticket creation and updates in ServiceNow, and provide real-time status updates via a voice and avatar interface for seamless guest interactions.
+Client: Multi-property hotel groups and resorts focusing on enhanced guest support.
+Challenges: Fragmented support channels causing lost or delayed guest requests.
+Slow response times hurting guest satisfaction and NPS scores.
+Language and accessibility barriers for international and visually impaired guests.
+Operational inefficiencies due to staff context switching between multiple systems.
+Solutions: Voice and avatar interface for natural, hands-free guest conversations.
+AI intent understanding and orchestration with GPT-4o in Azure AI Foundry.
+Full ServiceNow integration for ticket lifecycle management and auto-routing.
+Real-time status tracking and notifications for guests and hotel staff.
+Multilingual and accessible voice avatar support to enhance inclusivity.
+Features: Voice-enabled, avatar-based guest assistance
+Multilingual support with real-time translation
+ServiceNow ticket creation, updates, and closures
+Real-time request status tracking and notifications
+AI-powered intent recognition and workflow orchestration
+Accessible and hands-free interface for all guests
+Tools Used: Azure AI Foundry  For AI reasoning, orchestration, and GPT-4o integration
+Azure Speech Avatar  For lifelike, lip-synced voice avatar conversations
+ServiceNow APIs  For seamless ticket management integration
+Frontend frameworks (React/Angular)  For tablet and mobile avatar UI
+Multilingual NLP models  For supporting international guest languages
+Agent: https://hospitality-agent.netlify.app/
+nan: nan
+----------------------------------------
+Agent Title: Inventory Voice Agent
+Overview: An AI-powered assistant built to simplify inventory operations by providing quick, accurate responses to stock inquiries and real-time access to inventory records. It improves consistency, reduces search time, and centralizes inventory data for warehouse teams and supply chain managers.
+
+Client: Retail chains, warehouses, or supply chain departments
+Challenges: Manual Stock Checks: Staff spent excessive time verifying inventory levels across multiple systems.
+Delayed Responses: Inventory queries from sales or logistics teams were answered slowly, impacting operations.
+Fragmented Data Sources: Inventory data was spread across spreadsheets, ERPs, and siloed systems.
+Inaccurate Stock Information: Lack of real-time updates led to errors in stock availability and forecasting.
+Solutions: Conversational Inventory Assistant: Responds to inventory-related queries through a chatbot interface with real-time data.
+Automated Stock Lookup: Instantly retrieves stock levels, item locations, and reorder status from integrated systems.
+Inventory Workflow Automation: Streamlines repetitive tasks like stock verification and reorder alerts.
+Centralized Inventory Dashboard: Provides a unified view of inventory across locations and systems.
+Features: AI-Powered Inventory Query Resolution
+Real-Time Access to Stock Levels
+Integration with ERP or Inventory Management Systems
+Automated Alerts for Low Stock and Reorders
+Centralized Inventory Knowledge Base
+Faster Decision-Making for Operations Teams
+Tools Used: Django  For backend logic, API development, and inventory data handling.
+HTML/CSS/JavaScript  For building a responsive and user-friendly frontend interface.
+Supabase Integration  For secure access to inventory databases.
+LLMs  For conversational query handling and natural language responses.
+Agent: https://inventoryagent.netlify.app/
+nan: nan
+----------------------------------------
+Agent Title: Late Fee Notification Agent
+Overview: The Late Fee Notification Agent leverages Copilot Studio and Power Automate to track customer fee due dates, send proactive notifications to customers, and escalate overdue accounts to managers. It runs on daily and weekly recurrence triggers to ensure timely communication and effective fee collection.
+Client: Finance Teams, Billing Departments, and Regional Managers
+Challenges: Missed Fee Notifications
+Customers often miss due dates due to lack of reminders.
+
+Manual Tracking Effort
+Teams spend significant time monitoring due dates across multiple systems.
+
+Delayed Escalations
+Overdue accounts beyond 60 days are not grouped or reported efficiently.
+
+Inefficient Communication
+Managers lack consolidated reports for quick decision-making.
+Solutions: Daily Recurrence Check for Due Fees
+
+Automated Email Notifications to Customers
+
+Weekly Overdue Account Identification
+
+CSV Report Generation for Managers
+
+Escalation Emails with Attached Reports
+
+Fast Indexing
+Features: Automated Customer Notifications: Daily reminders sent to customers whose due dates were 25 or 50 days ago.
+Weekly Overdue Escalations: Automatically identifies customers with fees overdue by more than 60 days.
+Manager-Level Reporting: Groups overdue customers by regional manager and generates CSV reports.
+Streamlined Workflow: Eliminates manual tracking, ensures timely escalations, and improves fee recovery.
+Tools Used: Microsoft Copilot Studio  Conversational interface for fee-related queries.
+Power Automate  Workflow automation for daily/weekly triggers and notifications.
+Excel / SharePoint / Database  Source of customer fee records.
+Outlook  Integrated email notifications for customers and managers.
+Agent: <!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/Default-008502d6-3f79-46f0-ab37-9354e3fe80ff/bots/crd5b_invoiceReminderAssistant/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+nan: nan
+----------------------------------------
+Agent Title: Portfolio Rebalance Agent
+Overview: The Autonomous Orchestrator Agent enables scalable, automated portfolio intelligence by coordinating sub-agents for goal tracking, market stress analysis, rebalancing, and client communication. It operates through scheduled and event-driven workflows, integrating with SQL and ML systems, excluding real-time trading and manual advisory tasks.
+Client: Portfolio Managers
+Challenges: - Manual rebalancing processes are labor-intensive and time-consuming, requiring constant monitoring of multiple client portfolios for drift from target allocations.
+
+
+
+- Lack of seamless integration between portfolio tracking, risk assessment, and order execution systems leads to errors, delays, and isolated decision-making.
+
+
+
+- Emotional biases and human oversight may hinder disciplined actions, such as selling high-performers or incorporating volatility forecasts into adjustments.
+
+
+
+- Scalability issues arise when managing diverse assets and client goals, with manual updates to holdings prone to inaccuracies in dynamic markets.
+Solutions: - Automates rebalancing with trigger to fetch client goals, eliminating manual oversight.
+- Integrates asset retrieval, ML-driven volatility analysis, and trade execution for seamless, error-free processing.
+- Removes bias with AI-generated, objective buy/sell suggestions based on market predictions.
+- Scales effortlessly by auto-updating holdings and managing multiple clients/assets.
+Features: -Automated triggers for proactive goal-based rebalancing.
+-Real-time integration of market data, volatility predictions, and current prices for informed suggestions.
+-Personalized email notifications with client/goal details, holdings summary, and reasoned rebalance actions.
+-Secure order management with status tracking (open/complete) and automatic holdings updates.
+-Scalable multi-agent design for handling multiple clients and assets efficiently.
+Tools Used: ?	Copilot Studio - For Multi Agent Orchestration
+?	Sql Server - Database 
+?	Alpaca Trading API - To execute orders in the market
+?	Power Automate - Triggering the Agent
+?	Python - For ML model
+Agent: https://myui-my.sharepoint.com/:i:/g/personal/sumana_m_ubtiinc_com/EePMzKYzVKlKp3LSHMCxWM8BsbgANAYzG0Rch2s8p5Jmxw?e=OE76bl
+nan: <iframe src="https://copilotstudio.microsoft.com/environments/e3ce6a5b-ed6e-e60e-af3e-95da64019813/bots/crd5b_portfolioManagement/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+----------------------------------------

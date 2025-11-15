@@ -1,0 +1,175 @@
+=== Sheet1 === Name QR Compliance Verifier Motor Insurance Claim Invoice
+Processing Product Price Comparison Resume Screening Customer Feedback
+Analysis LinkedIn Job Scrapping Employee Onboarding workflow Lead
+scoring and Routing Scholarship Eligibility Student Admission Automation
+Exam Invigilation and Student Assignment ID Card Generator Product
+Warranty Claim ICD/CPT medical Code Import/Export Compliance Checklist
+Automation Google Review Automation
+Tags Retail Insurance FinTech Retail HR Marketing Web Scrapping HR Sales
+Education Education Education Education Retail Healthcare Logistics
+Manufacturing Operation BPO E-Commerce Staffing Sales HR IT CRM Staffing
+Staffing HR Customer Support Medical Coding Compliance Trade
+Description The workflow involves scanning a provided QR code to extract
+product information, verifying it against stored records for accuracy
+and compliance, structuring the validated data into a predefined
+template, and forwarding the finalized details to the customer for
+confirmation. This workflow uses AI to scan vehicle damage from images
+submitted during a car insurance claim. It compares the image against
+known damage types and coverage rules, determines claim eligibility, and
+automatically sends approval details to both the insurer and the
+customer. The system extracts invoice data, validates it, classifies
+valid invoices, and sends them for approval. If there’s no response
+within a set time, a Planner task and reminder are triggered. The system
+automatically scrapes product prices across multiple online stores,
+compares them with our instore price, and sends a summarized email
+highlighting best deals and price differences. AI scans incoming resumes
+for required skills, keywords, and experience levels. Qualified
+candidates are automatically scheduled for interviews using Microsoft
+Teams and notified via email, reducing manual review and coordination
+efforts. The system automatically analyses customer feedback using
+summarizer tools and generates a visual report that highlights
+satisfaction trends, pain points, and actionable insights. These reports
+are then shared via email with relevant teams for further action. The
+system automates the process of extracting job listings from LinkedIn
+based on a user-defined search term. Using Power Automate Desktop, it
+collects structured job data such as company name, location, posting
+date, role type, and company details. The information is compiled into
+an Excel report and sent via email to the user for review and action.
+Automates scholarship evaluation by extracting student academic data
+from SharePoint forms and certificates using AI Builder. Eligibility is
+determined by comparing extracted marks against criteria stored in
+Dataverse. The application status is updated accordingly, and students
+are notified via email. This automated solution generates personalized
+ID cards by combining student or employee data from Excel with profile
+photos stored in SharePoint. The information is dynamically populated
+into a Word template, converted to PDF format, and saved to a designated
+SharePoint document library for secure access and archival. Automates
+warranty claim processing by validating uploaded warranty documents and
+user queries against product records stored in Dataverse. If a valid
+warranty exists, AI Builder categorizes the issue, estimates cost
+coverage, and triggers an email with claim details. If expired, the user
+receives a notification indicating warranty ineligibility.
+Client Leading Mid to Large scale Electronic Manufacturing company Large
+automobile insurance company handling high volumes of motor claims
+daily. Mid-sized enterprise or large organization with a high volume of
+vendor transactions. Multi-brand retail chain managing diverse supplier
+relationships. Recruitment agency focused on high-volume hiring for
+various roles. Customer experience teams in service-oriented businesses.
+Designed for recruiters, job seekers, HR professionals, and staffing
+agencies. Student services teams, scholarship committees, and education
+administrators. Administrative teams, HR departments, educational
+institutions, and onboarding coordinators. Customer support teams,
+warranty service centers, and product service administrators.
+Challenges Manual verification delays and human error in product detail
+matching Inconsistent data formats across product lines or suppliers
+Limited traceability for compliance or recall scenarios Customer
+dissatisfaction due to incorrect or delayed product info High
+operational overhead for manual templating and dispatch Manual
+assessment is slow and inconsistent Human judgment leads to variations
+in approval Customers get frustrated by delays High staff workload and
+operational bottlenecks High volumes of invoices lead to manual errors
+Missing data causes delays and non-compliance Approval bottlenecks due
+to unresponsiveness Difficulty tracking pending approvals Prices change
+frequently across vendors Manually comparing prices is slow and
+error-prone Hard to react quickly to good deals or price drops Sorting
+resumes manually takes too long Matching skills accurately is difficult
+without automation Coordinating interviews adds more delays Feedback is
+scattered across emails, forms, and surveys Manual review misses
+patterns or emotional tone Reporting takes time and lacks visual clarity
+Job listings are scattered across multiple pages and require scrolling
+Manual data collection is time-consuming and error-prone Lack of
+structured reporting for job insights Difficulty in tracking newly
+posted roles across companies No centralized view of job opportunities
+for analysis Student data is scattered across forms and certificates
+Manual verification of marks and eligibility is time-intensive Risk of
+human error in calculating cutoffs Lack of centralized tracking for
+application status Delays in communicating results to applicants Manual
+ID card creation is time-consuming Inconsistent formatting and data
+entry errors Difficulty managing and storing large volumes of ID files
+Limited scalability for bulk generation Manual verification of warranty
+claims Inconsistent issue categorization Delays in cost estimation and
+response Lack of centralized warranty tracking
+Solution (Tech Stack) QR code scanning triggers automated data retrieval
+from storage Real-time validation against master records or compliance
+schema Dynamic templating using predefined formats for product details
+Automated dispatch to customer via email or integrated channels Audit
+trail maintained for verification and complianc AI Builder detects
+damage and classifies severity Power Automate routes eligible claims for
+approval SharePoint stores claim documents and history Email integration
+sends result notifications. AI Builder to extract and validate invoice
+fields Power Automate to manage workflow routing and timers SharePoint
+for storage and classification Microsoft Planner and Outlook for
+notifications Power Automate Desktop for web scraping Automated email
+alerts on top price options Resume parsing through AI Builder Scheduling
+teams meet via Power Automate Dataverse used to track profiles AI-based
+Customer feedback analysis Data aggregation from Excel Automated email
+delivery via Outlook Automated job scraping using Power Automate Desktop
+Data aggregation and formatting in Excel Automated email delivery of job
+report via Outlook AI-based extraction of marks from uploaded 12th-grade
+certificates Automated comparison against eligibility criteria in
+Dataverse Dynamic update of student application status (Eligible / Not
+Eligible) Email notification to applicants with eligibility outcome Data
+extraction from Excel and SharePoint image repository Automated
+population of Word template PDF conversion and structured storage in
+SharePoint Scalable for batch processing and future updates Warranty
+validation via Dataverse AI-based issue classification and cost analysis
+Automated email notification with claim outcome
+High Level Flow SharePoint, Email, One-Drive AI Builder, Email, Python,
+SharePoint AI Builder, Planner, Approval, Email Web scrapping, Email AI
+Builder, Approval, Teams, OneDrive AI Builder, Excel Power Automate
+Desktop, Excel, Outlook Microsoft SharePoint, AI Builder, Dataverse,
+Power Automate, Outlook Excel, SharePoint, Power Automate Dataverse, AI
+Builder, Power Automate, SharePoint, Outlook
+Accuracy 0.95 0.87 0.9 0.98 0.95 0.95 0.9 0.95 0.98 0.95
+Time Saved 0.3 0.6 0.4 0.35 0.5 0.75 0.65 0.75 0.8 0.7
+Cost Reduction 0.45 0.25 0.38 0.25 0.6 0.1 0.2 0.2 0.25 0.2
+
+=== Use Case === Sl.No Use case Name Resources Status Description 1
+Contract Verification . User uploads a new
+contract (PDF/DOCX) via website.
+
+Triggers AI Builder Form Processing model trained on contract templates.
+
+Extracts:
+
+Party names, Effective/expiry dates,
+Jurisdiction,
+Renewal clauses
+
+Auto-populates SharePoint metadata columns → files document in correct
+folder.
+
+Sends summary email to legal/procurement team. 2 Smart Vendor Onboarding
+
+
+Runs AML/blacklist checks.
+
+Generates + emails NDA, contract → eSignature.
+
+If signed → creates vendor record in ERP → sends portal credentials. 3
+Invoice Process Automation . Customer-Triggered Incident & Action Chain 
+
+Pulls machine’s last telemetry from IoT hub.
+
+Checks warranty & service contract in ERP.
+
+If under warranty → auto-assigns field engineer → schedules visit →
+orders spare parts.
+
+Sends customer SMS with ETA and service ticket.
+
+Logs service request in ITSM + notifies operations dashboard. 5 Smart
+Quote Generator. User enters basic specs via
+website (product type, quantity, delivery date) → triggers flow that:
+
+Fetches latest price + discount rules from ERP.
+
+Checks inventory + lead time from WMS.
+
+Applies business logic + conditional approvals (e.g., margin
+thresholds).
+
+Auto-generates quote document → sends to customer.
+
+If approval needed → triggers internal approval flow → sends quote only
+after approval.

@@ -1,0 +1,11 @@
+flask
+flask-cors
+firebase-admin
+chromadb
+PyPDF2
+python-docx
+python-pptx
+python-dotenv
+gunicorn
+langchain_openai
+groq
