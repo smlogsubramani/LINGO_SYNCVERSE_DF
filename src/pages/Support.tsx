@@ -242,6 +242,38 @@ useEffect(() => {
     };
     
     setTickets((prev) => [optimisticTicket, ...prev]);
+      // --- POWER AUTOMATE INTEGRATION START ---
+        const powerAutomateUrl = 'https://default008502d63f7946f0ab379354e3fe80.ff.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/99d2f8ba050b43b0ac1a580efeab8e34/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=dJMsLW7J4p2qFnGCicP5dpufBuwVVOhEEFr-NZ5z3ZE';
+        const emailPayload = {
+          ticketCode: ticketCode,
+          title: ticketData.subject,
+          description: ticketData.description,
+          category: ticketData.category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+          subCategory: ticketData.subCategory,
+          priority: (ticketData.priority || 'medium').charAt(0).toUpperCase() + (ticketData.priority || 'medium').slice(1),
+          createdBy: user.name,
+          createdById: user.id,
+          requestedDeveloper: ticketData.requestedDeveloper || null,
+          contactReason: ticketData.contactReason || null,
+          ticketId: ticketId,
+          createdAt: new Date().toISOString()
+        };
+        fetch(powerAutomateUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(emailPayload)
+        })
+        .then(response => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          console.log('Power Automate triggered successfully');
+        })
+        .catch(error => {
+          console.error('Failed to trigger Power Automate:', error);
+        });
+        // --- POWER AUTOMATE INTEGRATION END ---
+    
     alert('✅ Ticket created successfully! You can view it in the Tickets tab.');
     setActiveTab('tickets');
     
